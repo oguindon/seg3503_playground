@@ -11,4 +11,4 @@ This repository tests github functionnalities.
 No license has been atributed to this project.
 
 # Screenshots
-image.png
+![java run](./Screenshots/java_run.png)
