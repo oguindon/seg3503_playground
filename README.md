@@ -9,3 +9,6 @@ This repository tests github functionnalities.
 
 # License
 No license has been atributed to this project.
+
+# Screenshots
+image.png
