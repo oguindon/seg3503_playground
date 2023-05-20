@@ -7,6 +7,16 @@ Lien: [https://github.com/oguindon/seg3503_playground.git](https://github.com/og
 
 ![github](./Screenshots/Github_screenshot.png)
 
+# Versions
+
+Java version:
+
+![java version](./Screenshots/java_version.png)
+
+Elixir version:
+
+![elixir version](./Screenshots/elixir_version.png)
+
 # Screenshots
 
 newmath_java ./bin/run:
