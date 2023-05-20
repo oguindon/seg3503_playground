@@ -1,14 +1,9 @@
-# Synopsis
-This is a small test repository made for SEG3503, lab 1 to test git functionnality.
+SEG3503 Lab 1
+Olivier Guindon
+oguin073@uottawa.ca
 
-# Motivation
-This repository tests github functionnalities.
-
-# Contributors
-- oguindon
-
-# License
-No license has been atributed to this project.
+# Github
+Lien: [https://github.com/oguindon/seg3503_playground.git](https://github.com/oguindon/seg3503_playground)
 
 # Screenshots
 
