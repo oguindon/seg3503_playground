@@ -1,7 +1,5 @@
-SEG3503 Lab 1
-
-Olivier Guindon
-
+# SEG3503 Lab 1
+Olivier Guindon: 
 oguin073@uottawa.ca
 
 # Github
