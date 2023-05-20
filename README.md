@@ -5,6 +5,8 @@ oguin073@uottawa.ca
 # Github
 Lien: [https://github.com/oguindon/seg3503_playground.git](https://github.com/oguindon/seg3503_playground)
 
+![github](./Screenshots/Github_screenshot.png)
+
 # Screenshots
 
 newmath_java ./bin/run:
