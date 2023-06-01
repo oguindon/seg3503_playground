@@ -36,5 +36,5 @@ la conception du code.
 | 1 - Entrées valides | Accepté | Accepté ![valid_entry](./screenshots/valid_entry_1.png) ![entry_confirmed](./screenshots/entry_confirmation_1.png) | Succèss |
 | 2 - Valide avec prenom et nom | Accepté | Accepté ![valid_entry with name](./screenshots/valid_with_name.png) ![entry_confirmed with name](./screenshots/entry_with_name.png)| Succèss |
 | 3 - Valide avec adresse courriel .com | Accepté | Accepté ![com_email_address](./screenshots/com_email_address.png) ![entry_confirmed](./screenshots/entry_confirmation_2.png)| Succèss |
-| 4 - Valide avec adresse courriel .gg | Accepté | Accepté ![com_email_address](./screenshots/gg_email.png) ![entry_confirmed](./screenshots/entry_confirmation_3.png)| Succèss |
-| 5 - Invalide aucune entrée | Err1, Err2, Err3, Err4, Err5 | Err1, Err2, Err3, Err4, Err5: ![com_email_address](./screenshots/valid_with_name.png) ![entry_confirmed](./screenshots/entry_confirmation_2.png)| Succèss |
+| 4 - Valide avec adresse courriel .gg | Accepté | Accepté ![gg_email_address](./screenshots/gg_email.png) ![entry_confirmed](./screenshots/entry_confirmation_3.png)| Succèss |
+| 5 - Invalide aucune entrée | Err1, Err2, Err5, Err6, Err9 | Err1, Err2, Err5, Err6, Err9: ![no_input_entry_failed](./screenshots/no_input_failed.png) | Échec |
