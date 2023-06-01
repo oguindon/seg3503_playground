@@ -21,5 +21,5 @@ la conception du code.
 
 | Cas de Test | Résultat Escomptes | Résultats Actuels | Verdict |
 | ----------- | ------------------ | ----------------- | ------- |
-| 1 - Entrées valides | accepted | accepted ![valid_entry](./screenshots/valid_entry_1.png) ![entry_confirmed](./screenshots/confirm_entry_1.png) | Pass |
-| 2 - Entrée||||
+| 1 - Entrées valides | accepté | accepté ![valid_entry](./screenshots/valid_entry_1.png) ![entry_confirmed](./screenshots/entry_confirmation_1.png) | Succèss |
+| 2 - Valide avec prenom et nom | accepté | accepté ![valid_entry with name](./screenshots/valid_with_name.png) ![entry_confirmed with name](./screenshots/entry_with_name.png)| Succèss |
