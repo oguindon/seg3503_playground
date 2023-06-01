@@ -21,5 +21,5 @@ la conception du code.
 
 | Cas de Test | Résultat Escomptes | Résultats Actuels | Verdict |
 | ----------- | ------------------ | ----------------- | ------- |
-| 1 - entrées valides | accepted | ![valid_entry](./screenshots/valid entry 1.png) |  |
+| 1 - entrées valides | accepted | ![valid_entry](./screenshots/wrong_first_name.png) |  |
 |||||
