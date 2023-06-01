@@ -3,6 +3,10 @@ Nom: Olivier Guindon
 
 Numéro d'étudiant: 300236168
 
+# Github
+Lien: [https://github.com/oguindon/seg3503_playground.git](https://github.com/oguindon/seg3503_playground)
+
+
 # Résumé:
 
 Pour l'exercise 1, j'ai trouvé divers cas d'erreur en utilisant la methode essai-erreur.
@@ -17,5 +21,5 @@ la conception du code.
 
 | Cas de Test | Résultat Escomptes | Résultats Actuels | Verdict |
 | ----------- | ------------------ | ----------------- | ------- |
-| 1 - entrées valides | accepted | ||
+| 1 - entrées valides | accepted | ![valid_entry](./screenshots/valid entry 1.png) |  |
 |||||
