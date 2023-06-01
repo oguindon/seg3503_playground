@@ -8,6 +8,9 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
+/**
+ * Test case class for Exception test cases
+ */
 @RunWith(Parameterized.class)
 public class DateNextDateExceptionTest {
     private int day, month, year;
@@ -18,6 +21,10 @@ public class DateNextDateExceptionTest {
         this.day = day;
     }
 
+    /**
+     * Function creating test case parameters
+     * @return List of Integer arrays containing the year, month and date to create a Date object during test case execution
+     */
     @Parameters
     public static List<Integer[]> dates() {
         List<Integer[]> dates = new LinkedList<Integer[]>();
@@ -39,6 +46,10 @@ public class DateNextDateExceptionTest {
         return dates;
     }
 
+    /**
+     * Test case execution (16-20)
+     * asserts that test cases throw and IllegalArguentException
+     */
     @Test
     public void testDateNextDateException() {
         assertThrows(IllegalArgumentException.class, () -> new Date(year, month, day));
