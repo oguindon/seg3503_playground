@@ -23,3 +23,5 @@ la conception du code.
 | ----------- | ------------------ | ----------------- | ------- |
 | 1 - Entrées valides | accepté | accepté ![valid_entry](./screenshots/valid_entry_1.png) ![entry_confirmed](./screenshots/entry_confirmation_1.png) | Succèss |
 | 2 - Valide avec prenom et nom | accepté | accepté ![valid_entry with name](./screenshots/valid_with_name.png) ![entry_confirmed with name](./screenshots/entry_with_name.png)| Succèss |
+| 3 - Valide avec adresse courriel .com | accepté | accepté ![com_email_address](./screenshots/com_email)address.png) ![entry_confirmed](./screenshots/entry_confirmation_2.png)| Succèss |
+| 4 - Valide avec adresse courriel .gg | accepté | accepté ![com_email_address](./screenshots/gg_email.png) ![entry_confirmed](./screenshots/entry_confirmation_3.png)| Succèss |
