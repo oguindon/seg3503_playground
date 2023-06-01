@@ -12,3 +12,10 @@ Pour l'exercise 2, j'ai implémenté les classes DateTest.java,
 DateNextDateExceptionTest.java et DateNextDateOkTest.java.
 Je me suis inspiré des classes BitTest.java et BitAndTest.java pour
 la conception du code.
+
+# Exercise 1:
+
+| Cas de Test | Résultat Escomptes | Résultats Actuels | Verdict |
+| ----------- | ------------------ | ----------------- | ------- |
+| 1 - entrées valides | accepted | ||
+|||||
