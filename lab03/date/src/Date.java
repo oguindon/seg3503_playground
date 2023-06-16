@@ -1,9 +1,7 @@
 public class Date {
 
 	/* Data fields */
-	private int year;
-	private int month;
-	private int day;
+	private int year, month, day;
 
 	/* String correspondent used for displaying months */
 	String[] monthNames = {
@@ -109,7 +107,7 @@ public class Date {
 		if (day == 31 || (day == 30 && isThirtyDayMonth()) ||
 				(this.month == 2 && ((day == 29 && leap) || (day == 28 && !leap))))
 			return true;
-		else return false;
+		return false;
 	}
 
 	/**
@@ -118,7 +116,7 @@ public class Date {
 	private boolean isThirtyDayMonth() {
 		if (this.month == 4 || this.month == 6 || this.month == 9 || this.month == 11)
 			return true;
-		else return false;
+		return false;
 	}
 
 	/**
