@@ -6,6 +6,8 @@ public class Tic {
 	int cols;
 	String turn;
 	public Tic(int row, int col) {
+		if (row <= 0 || col <= 0) throw new IllegalArgumentException();
+		
 		board = new String[row][col];
 		rows = row;
 		cols = col;
