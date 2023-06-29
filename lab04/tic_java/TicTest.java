@@ -38,4 +38,11 @@ class TicTest {
 		Tic board2 = new Tic(3, 3);
 		assertNotEquals(board, board2);
 	}
+
+	@Test
+	void testNonTicObject() {
+		Tic object = new Tic(3, 3);
+		Tic board = new Tic(3, 3);
+		assertNotEquals(board, object);
+	}
 }
