@@ -16,4 +16,37 @@ public class Tic {
 			}
 		}
 	}
+
+	public int getRows() {
+		return rows;
+	}
+	
+	public int getCols() {
+		return cols;
+	}
+	
+	public String getSquare(int row, int col) {
+		return board[row][col];
+	}
+	
+	public boolean equals(Object obj) {
+		if (obj.getClass() != this.getClass()) {
+			return false;
+		}
+		
+		Tic tic = (Tic) obj;
+		
+		if (rows != tic.getRows() || cols != tic.getCols()) {
+			return false;
+		}
+		
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < cols; j++) {
+				if (board[i][j] != tic.getSquare(i, j)) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
 }
