@@ -24,4 +24,11 @@ class TicTest {
 		Tic board =  new Tic(3, 3);
 		assertThrows(IllegalArgumentException.class, () -> board.getSquare(4, 1));
 	}
+
+	@Test
+	void testBoardsNotEqual() {
+		Tic board = new Tic(3, 4);
+		Tic board2 = new Tic(3, 3);
+		assertNotEquals(board, board2);
+	}
 }

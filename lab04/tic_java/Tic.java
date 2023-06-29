@@ -37,7 +37,7 @@ public class Tic {
 		
 		Tic tic = (Tic) obj;
 		
-		if (rows != tic.getRows() || cols != tic.getCols()) return false;
+		if (rows != tic.getRows()) return false;
 		
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < cols; j++) {
