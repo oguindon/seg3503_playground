@@ -41,7 +41,7 @@ class TicTest {
 
 	@Test
 	void testNonTicObject() {
-		String object = new String();
+		Object object = new Object();
 		Tic board = new Tic(3, 3);
 		assertNotEquals(board, object);
 	}
