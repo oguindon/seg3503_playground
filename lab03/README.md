@@ -1,4 +1,4 @@
-# Lab 2
+# Lab 3
 Nom: Olivier Guindon
 
 Numéro d'étudiant: 300236168
