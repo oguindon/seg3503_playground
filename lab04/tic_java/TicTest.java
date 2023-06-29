@@ -17,6 +17,6 @@ class TicTest {
 	@Test
 	void testRow0() {
 		Tic board = new Tic(0, 3);
-		board.getSquare(0, 3);
+		assertThrows(ArrayIndexOutOfBoundsException.class, () -> board.getSquare(0, 1));
 	}
 }
