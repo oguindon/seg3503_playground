@@ -28,6 +28,7 @@ public class Tic {
 	}
 	
 	public String getSquare(int row, int col) {
+		if (row < 0 || row >= rows || col < 0 || col >= cols) throw new IllegalArgumentException("Square must be within designated board");
 		return board[row][col];
 	}
 	
