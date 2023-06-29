@@ -16,7 +16,7 @@ public class Tic {
 			}
 		}
 	}
-
+	
 	public int getRows() {
 		return rows;
 	}
@@ -30,21 +30,15 @@ public class Tic {
 	}
 	
 	public boolean equals(Object obj) {
-		if (obj.getClass() != this.getClass()) {
-			return false;
-		}
+		if (! (obj instanceof Tic)) return false;
 		
 		Tic tic = (Tic) obj;
 		
-		if (rows != tic.getRows() || cols != tic.getCols()) {
-			return false;
-		}
+		if (rows != tic.getRows() || cols != tic.getCols()) return false;
 		
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < cols; j++) {
-				if (board[i][j] != tic.getSquare(i, j)) {
-					return false;
-				}
+				if (board[i][j] != tic.getSquare(i, j)) return false;
 			}
 		}
 		return true;
