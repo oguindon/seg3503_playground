@@ -26,7 +26,14 @@ class TicTest {
 	}
 
 	@Test
-	void testBoardsNotEqual() {
+	void testBoardsRowNotEqual() {
+		Tic board = new Tic(4, 3);
+		Tic board2 = new Tic(3, 3);
+		assertNotEquals(board, board2);
+	}
+	
+	@Test
+	void testBoardsColNotEqual() {
 		Tic board = new Tic(3, 4);
 		Tic board2 = new Tic(3, 3);
 		assertNotEquals(board, board2);
