@@ -18,4 +18,10 @@ class TicTest {
 	void testRow0() {
 		assertThrows(IllegalArgumentException.class,() -> new Tic(0, 3));
 	}
+
+	@Test
+	void testGetSquareOutOfBounds() {
+		Tic board =  new Tic(3, 3);
+		board.getSquare(4, 1);
+	}
 }
