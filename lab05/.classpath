@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="twitter/src"/>
+	<classpathentry kind="src" path="twitter/test"/>
+	<classpathentry kind="lib" path="twitter/lib/easymock-4.3.jar"/>
+	<classpathentry kind="lib" path="twitter/lib/junit-platform-console-standalone-1.7.1.jar"/>
+	<classpathentry kind="lib" path="twitter/lib/mockito-core-3.11.2.jar"/>
+	<classpathentry kind="lib" path="twitter/lib/mockito-junit-jupiter-3.11.2.jar"/>
+	<classpathentry kind="lib" path="twitter/lib/objenesis-3.2.jar"/>
+	<classpathentry kind="output" path="twitter/dist"/>
+</classpath>

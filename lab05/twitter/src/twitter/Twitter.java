@@ -1,5 +1,7 @@
-public class Twitter {
+package twitter;
 
+public class Twitter {
+  
   public String loadTweet()
   {
     try {
