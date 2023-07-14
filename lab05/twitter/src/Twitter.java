@@ -1,5 +1,3 @@
-package twitter;
-
 public class Twitter {
   
   public String loadTweet()
@@ -19,8 +17,9 @@ public class Twitter {
   }
 
   public boolean isMentionned(String name) {
-    String tweet = loadTweet();
-    return tweet.contains("@" + name);
+	  String tweet = loadTweet();
+	  if (tweet == null) {return false;}
+	  return tweet.contains("@" + name + " ") || tweet.endsWith("@" + name);
   }
 
 }

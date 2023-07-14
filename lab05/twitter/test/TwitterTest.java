@@ -1,10 +1,8 @@
-package twitter;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
-import twitter.Twitter;
+import Twitter;
 
 import static org.easymock.EasyMock.*;
 
@@ -125,7 +123,7 @@ class TwitterTest {
 		replay(twitter);
 		boolean actual;
 		actual = twitter.isMentionned("me");
-	    assertEquals(true, actual);
+	    assertEquals(false, actual);
 	    	
 	    actual = twitter.isMentionned("meat");
 	    assertEquals(false, actual);  
