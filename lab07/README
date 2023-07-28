@@ -1,0 +1,36 @@
+# Lab 7
+Nom: Olivier Guindon
+
+Numéro d'étudiant: 300236168
+
+Courriel: oguin073@uottawa.ca
+
+# Github
+Lien: [https://github.com/oguindon/seg3503_playground.git](https://github.com/oguindon/seg3503_playground)
+
+
+# Résumé:
+
+Calculator:
+J'ai utilisé spotbugs pour identifier les bugs dans le code.
+
+| État Initial | ![Calculator](./screenshots/calc.png) <br> ![Spotbugs](./screenshots/spotbugs.png) |
+
+Malheuruesement, spotbugs ne voulait pas reconnaitre cles classes compilées lors de la création d'un nouveau projet.
+<br>
+![new-project](./screenshots/new-project.png)
+<br>
+![error-message](./screenshots/erroer-message.png)
+<br>
+J'ai donc utilisé le plugin de spotbugs pour eclipse. Ceci m'a donné les bugs suivants: <br> ![Bugs](./screenshots/bugs.png)
+
+# Bugs:
+| Bug | Methode | Description |
+| --- | --- | --- |
+| ![Bug 1](./screenshots/bug1.png) | Corriger | Code initial: <br> ![Code bug 1](./screenshots/bug-1-code.png) <br> Correction: <br> ![Corriger Bug 1](./screenshots/bug-1-fix.png) |
+| ![Bug 2](./screenshots/bug2-3.png) | Corriger | Code initial: <br> ![Code bug 2](./screenshots/bug-2-part-2.png) <br> Correction: <br> ![Corriger Bug 2](./screenshots/fix-bug2-3.png) |
+| ![Bug 3](./screenshots/bug-4.png) ![Bug 4](./screenshots/bug4-part2.png) | Expliquer correction | Code initial: <br> ![Code bug 3-4](./screenshots/code-bug-4.png) <br> Expliquation de la correction: <br> Les conditions if sont tous redondantes. Le premier bloc "if" n'est pas du tout necessaire puisque tous les conditions ont le même résultat, incluant la condition "else" et devrait être remplacer par la commande getContentPane(). <br> Le deuxième bloc pourrait avoir tous les "else-ifs" mis dans le même "if" à l'aide de l'opérande or "||". |
+| ![Bug 5](./screenshots/bug-5.png) | Corriger | Code initial: <br> ![Code bug 5](./screenshots/bug-5-code.png) <br> Correction: <br> ![Corriger Bug 5](./screenshots/fix-bug-5.png) |
+| ![Bug 6](./screenshots/bug-6.png) | Expliquer correction | Code initial: <br> ![Code bug 6](./screenshots/bug-6-code.png) <br> Expliquation de la correction: <br> Il faut ajouté une condition default au bloc Switch pour géré le cas ou l'opération n'est pas prévue. La condition default sera probablement un message d'erreur. |
+| ![Bug 7](./screenshots/bug-8.png) | Expliquer le bug | Code initial: <br> ![Code bug 7](./screenshots/bug-8-code.png) <br> Expliquation du bug: <br> Puisque la condition d'avant est "else !morenums", on sait que si on se retrouve au "else" "else morenums" que le boolean morenums est déjà vrai. Ainsi, c'est redondant devérifier que morenums est vrai. |
+| ![Bug 8](./screenshots/bug-9.png) | Expliquer le bug | Code initial: <br> ![Code bug 8](./screenshots/bug-9-code.png) <br> Expliquation du bug: <br> la methode setClearScreen() n'est jamais utilisée. Ainsi, cette méthode prend de l'espace et pourrait causer des erreurs dans le futur sans contribuer au fonctionnement du logiciel. |
